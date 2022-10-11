@@ -1,0 +1,16 @@
+<h1>Stupid Coaching</h1>
+<div class="ver-bar bd-left card-mg">
+  <p>params[:question]</p>
+  <p> - you </p>
+</div>
+
+<div class = "yellowBg bd-left card-mg">
+  <% if params[:question] === "I am going to work"%>
+  <p>Great!</p>
+  <%elsif params[:question] === "?" %>
+    <p> Silly question, get dressed and go to work! </p>
+  <%else%>
+    <p> I don't care, get dressed and go to work! </p>
+  <%end%>
+  <p> - your coach </p>
+</div>

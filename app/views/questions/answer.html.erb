@@ -1,6 +1,6 @@
 <h1>Stupid Coaching</h1>
 <div class="ver-bar bd-left card-mg">
-  <p>params[:question]</p>
+  <p><%=params[:question]%></p>
   <p> - you </p>
 </div>
 
@@ -13,4 +13,8 @@
     <p> I don't care, get dressed and go to work! </p>
   <%end%>
   <p> - your coach </p>
+</div>
+
+<div>
+  <%= link_to("Ask a new question", ask_path)%>
 </div>
